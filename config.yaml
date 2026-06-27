@@ -1,0 +1,10 @@
+project_name: india_aqi_cnn_lstm
+objective: objective1
+lookback: 7
+train_split: 0.8
+target_col: pm25
+random_seed: 42
+input_files:
+  satellite: data/raw/satellite_features.csv
+  cpcb: data/raw/cpcb_surface.csv
+  met: data/raw/meteorology.csv
